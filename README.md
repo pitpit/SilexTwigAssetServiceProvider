@@ -27,16 +27,16 @@ Or [download composer.phar][3] into the project root.
 Registering
 -----------
 
-Replace
-
-```php
-$app->register(new Silex\Provider\TwigServiceProvider());
-```
-
-with
+Add
 
 ```php
 $app->register(new SmartRock\Provider\TwigAssetServiceProvider());
+```
+
+after
+
+```php
+$app->register(new Silex\Provider\TwigServiceProvider());
 ```
 
 Usage
