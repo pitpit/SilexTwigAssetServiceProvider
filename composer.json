@@ -15,8 +15,8 @@
     },
     "autoload": {
         "psr-0": {
-            "SmartRock\\Provider": "src/Provider",
-            "SmartRock\\Twig": "src/Twig"
+            "SmartRock\\Provider": "src",
+            "SmartRock\\Twig": "src"
         }
     }
 }
