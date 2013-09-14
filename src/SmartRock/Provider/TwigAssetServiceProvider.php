@@ -9,6 +9,8 @@ use Symfony\Bridge\Twig\Extension\RoutingExtension;
 use Symfony\Bridge\Twig\Extension\TranslationExtension;
 use Symfony\Bridge\Twig\Extension\FormExtension;
 use Symfony\Bridge\Twig\Extension\SecurityExtension;
+use Symfony\Bridge\Twig\Form\TwigRenderer;
+use Symfony\Bridge\Twig\Form\TwigRendererEngine;
 
 /**
  * Asset twig extension provider for Silex
